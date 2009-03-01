@@ -10,9 +10,9 @@
   
   <scm>
     <!-- Public Read-Only connection -->
-    <!-- <connection>scm:git:git://github.com/matthewmccullough/maven-training-samplegitscm.git</connection> -->
+    <connection>scm:git:git://github.com/matthewmccullough/maven-training-samplegitscm.git</connection>
     <!-- Private Read-Write connection -->
-    <connection>scm:git:git@github.com:matthewmccullough/maven-training-samplegitscm.git</connection>
+    <!-- <connection>scm:git:ssh://git@github.com:matthewmccullough/maven-training-samplegitscm.git</connection> -->
     <url>http://github.com/matthewmccullough/maven-training-samplegitscm.git</url>
   </scm> 
 </project>
