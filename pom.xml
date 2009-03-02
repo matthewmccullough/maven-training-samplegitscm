@@ -20,13 +20,15 @@
     <!-- <connection>scm:git:ssh://github.com/matthewmccullough/maven-training-samplegitscm.git</connection> -->
     <url>http://github.com/matthewmccullough/maven-training-samplegitscm/tree/master</url>
   </scm>
-  
+
+  <!--
   <build>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-release-plugin</artifactId>
         <dependencies>
+  -->
           <!-- The release plugin requires these dependencies to be explicitly defined, or the GIT plugin won't work in Maven 2.0.9 -->
           
           <!-- Solves the "The provider given in the SCM URL could not be found: No such provider: 'git'."" error -->
@@ -48,8 +50,10 @@
             <version>1.5.6</version>
           </dependency>
           -->
+  <!--
         </dependencies>
       </plugin>
     </plugins>
   </build>
+-->
 </project>
