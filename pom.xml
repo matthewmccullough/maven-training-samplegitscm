@@ -36,12 +36,15 @@
             <version>1.1</version>
           </dependency>
           
-          <!-- Solves java.lang.NoClassDefFoundError: org/codehaus/plexus/util/xml/XmlStreamReader, likely introduced by Maven 2.0.10 -->
-          <!-- <dependency>
-                      <groupId>org.codehaus.plexus</groupId>
-                      <artifactId>plexus-utils</artifactId>
-                      <version>1.5.6</version>
-                    </dependency> -->
+          <!-- Solves java.lang.NoClassDefFoundError: org/codehaus/plexus/util/xml/XmlStreamReader -->
+          <!-- Bug introduced by Maven 2.0.9, solved by 2.0.10. Add this dependency if you are using Maven 2.0.9, remove it if 2.0.10 -->
+          <!--
+          <dependency>
+            <groupId>org.codehaus.plexus</groupId>
+            <artifactId>plexus-utils</artifactId>
+            <version>1.5.6</version>
+          </dependency>
+          -->
         </dependencies>
       </plugin>
     </plugins>
