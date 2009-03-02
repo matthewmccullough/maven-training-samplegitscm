@@ -12,7 +12,29 @@
     <!-- Public Read-Only connection -->
     <connection>scm:git:git://github.com/matthewmccullough/maven-training-samplegitscm.git</connection>
     <!-- Private Read-Write connection -->
-    <!-- <connection>scm:git:ssh://git@github.com:matthewmccullough/maven-training-samplegitscm.git</connection> -->
-    <url>http://github.com/matthewmccullough/maven-training-samplegitscm.git</url>
-  </scm> 
+    <!-- <connection>scm:git:ssh://github.com/matthewmccullough/maven-training-samplegitscm.git</connection> -->
+    <url>scm:git:git://github.com/matthewmccullough/maven-training-samplegitscm.git</url>
+  </scm>
+  
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <dependencies>
+          <dependency>
+            <groupId>org.apache.maven.scm</groupId>
+            <artifactId>maven-scm-provider-gitexe</artifactId>
+            <version>1.1</version>
+          </dependency>
+          <dependency>
+            <groupId>org.apache.maven.scm</groupId>
+            <artifactId>maven-scm-providers-git</artifactId>
+            <version>1.1</version>
+            <type>pom</type>
+          </dependency>
+        </dependencies>
+      </plugin>
+    </plugins>
+  </build>
 </project>
