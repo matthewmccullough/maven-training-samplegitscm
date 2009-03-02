@@ -21,6 +21,7 @@
     <url>http://github.com/matthewmccullough/maven-training-samplegitscm/tree/master</url>
   </scm>
 
+  <!-- Bug introduced by Maven 2.0.9, solved by 2.0.10. Add this section if you are using Maven 2.0.9, remove it if 2.0.10 -->
   <!--
   <build>
     <plugins>
