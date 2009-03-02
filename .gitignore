@@ -1,3 +1,4 @@
 target
 *.diff
 release.properties
+pom.xml.releaseBackup
