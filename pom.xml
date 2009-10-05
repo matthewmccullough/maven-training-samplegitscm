@@ -10,6 +10,7 @@
   <modules>
     <module>subproj1</module>
     <module>subproj2</module>
+    <module>subcontainer</module>
   </modules>
    
    <!-- The customized dependencies below solve some issues introduced in Maven 2.0.10 with the release and Git SCM provider -->
