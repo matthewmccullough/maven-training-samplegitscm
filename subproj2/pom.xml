@@ -5,7 +5,7 @@
   <parent>
     <groupId>com.ambientideas</groupId>
     <artifactId>sample-multiprojwithscm</artifactId>
-    <version>1.17-SNAPSHOT</version>
+    <version>1.17</version>
   </parent>
    
   <artifactId>sample-multiprojwithscm-subproj2</artifactId>
