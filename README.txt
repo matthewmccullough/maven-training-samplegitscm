@@ -14,3 +14,5 @@ Source:
 https://svn.apache.org/repos/asf/maven/scm/tags/maven-scm-1.1/maven-scm-providers/maven-scm-providers-git/maven-scm-provider-git-commons/src/main/java/org/apache/maven/scm/provider/git/
 
 http://docs.codehaus.org/display/SCM/SCM+Matrix
+
+On the release:perform step, remind students that any reports configured to run will generally be executed.
