@@ -4,7 +4,7 @@
   <version>1.21.8-SNAPSHOT</version>
   <artifactId>sample-multiprojwithscm</artifactId>
   <packaging>pom</packaging>
-  <name>Sample - MultiProj - Git SCM - Master Project</name>
+  <name>Sample - MultiProj - Git SCM - Master Project IMPROVED!</name>
   <description>Multimodule Maven Project with Git Flavored SCM</description>
   <url>http://github.com/matthewmccullough/maven-training-samplegitscm/tree/master</url>
 
