@@ -1,4 +1,6 @@
 This project demonstrates how the <scm> tag of Maven can connect to a Git repository.
+    
+    More stuff
 
 You can demonstrate:
 mvn release:prepare (if you have checkin permissions, as this PUSHes to your remote repo)
