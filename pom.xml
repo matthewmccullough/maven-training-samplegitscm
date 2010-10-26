@@ -29,11 +29,12 @@
    
    <!-- The customized dependencies below solve some issues introduced in Maven 2.0.10 with the release and Git SCM provider -->
    <prerequisites>
-     <maven>2.0.9</maven>
+     <maven>2.2.1</maven>
    </prerequisites>
 
      <scm>
        <!-- You would think this is a Public Read-Only connection, but it allows for authenticated PUSH too -->
+       <developerConnection>scm:git:git://github.com/matthewmccullough/maven-training-samplegitscm.git</developerConnection>
        <connection>scm:git:git://github.com/matthewmccullough/maven-training-samplegitscm.git</connection>
        <!-- Private Read-Write connection - Untested so far-->
        <!-- <connection>scm:git:ssh://github.com/matthewmccullough/maven-training-samplegitscm.git</connection> -->
