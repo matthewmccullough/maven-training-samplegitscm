@@ -1,6 +1,4 @@
 This project demonstrates how the <scm> tag of Maven can connect to a Git repository.
-    
-    More stuff
 
 You can demonstrate:
 mvn release:prepare (if you have checkin permissions, as this PUSHes to your remote repo)
@@ -17,4 +15,4 @@ https://svn.apache.org/repos/asf/maven/scm/tags/maven-scm-1.1/maven-scm-provider
 
 http://docs.codehaus.org/display/SCM/SCM+Matrix
 
-On the release:perform step, remind students that any reports configured to run will generally be executed.MOREStuff
+On the release:perform step, remind students that any reports configured to run will generally be executed.
