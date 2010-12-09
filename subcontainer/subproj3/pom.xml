@@ -4,9 +4,10 @@
   <parent>
     <groupId>com.ambientideas</groupId>
     <artifactId>sample-multiprojwithscm-subcontainer</artifactId>
-    <version>1.21.17-SNAPSHOT</version>
+    <version>1.21.47</version>
   </parent>
    
   <artifactId>sample-multiprojwithscm-subproj3</artifactId>
+  <version>1.21.99</version>
   <name>Sample - MultiProj with SCM - Subproj 3</name>
 </project>
