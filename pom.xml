@@ -36,8 +36,8 @@
 
      <scm>
        <!-- You would think this is a Public Read-Only connection, but it allows for authenticated PUSH too -->
-       <developerConnection>scm:git:ssh://github.com/matthewmccullough/maven-training-samplegitscm.git</developerConnection>
-       <connection>scm:git:git://github.com/matthewmccullough/maven-training-samplegitscm.git</connection>
+       <developerConnection>scm:git:ssh://git@github.com/matthewmccullough/maven-training-samplegitscm.git</developerConnection>
+       <connection>scm:git:ssh://git@github.com/matthewmccullough/maven-training-samplegitscm.git</connection>
        <!-- Private Read-Write connection - Untested so far-->
        <!-- <connection>scm:git:ssh://github.com/matthewmccullough/maven-training-samplegitscm.git</connection> -->
        <url>http://github.com/matthewmccullough/maven-training-samplegitscm/tree/master</url>
