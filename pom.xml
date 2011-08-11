@@ -36,7 +36,7 @@
 
      <scm>
        <!-- You would think this is a Public Read-Only connection, but it allows for authenticated PUSH too -->
-       <developerConnection>scm:git:git://github.com/matthewmccullough/maven-training-samplegitscm.git</developerConnection>
+       <developerConnection>scm:git:ssh://github.com/matthewmccullough/maven-training-samplegitscm.git</developerConnection>
        <connection>scm:git:git://github.com/matthewmccullough/maven-training-samplegitscm.git</connection>
        <!-- Private Read-Write connection - Untested so far-->
        <!-- <connection>scm:git:ssh://github.com/matthewmccullough/maven-training-samplegitscm.git</connection> -->
