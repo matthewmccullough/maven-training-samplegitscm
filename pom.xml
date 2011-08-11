@@ -2,7 +2,7 @@
 <!-- comment -->
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.ambientideas</groupId>
-  <version>1.22.10</version>
+  <version>1.22.11-SNAPSHOT</version>
   <artifactId>sample-multiprojwithscm</artifactId>
   <packaging>pom</packaging>
   <name>Sample - MultiProj - Git SCM - Master Project IMPROVED!</name>
